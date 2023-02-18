@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int i,n;
+	char a[10];
+	printf("enter your name\tno.of times to print\n");
+	scanf("%s%d",a,&n);
+	for(i=0;i<n;i++)
+	{
+		printf("%s\n",a);
+	}
+}
