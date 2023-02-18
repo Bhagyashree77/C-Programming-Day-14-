@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int a=10,b=20,c=30,big;
+	printf("enter the values of a,b,c\n");
+	scanf("%d%d%d",&a,&b,&c);
+	big=(a>b&&a>c?a:b>c?b:c);
+	printf("the biggest number is %d",big);
+}
